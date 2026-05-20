@@ -8,6 +8,8 @@ export type SectionId =
   | "education"
   | "contact";
 
+const assetPath = (fileName: string) => `${import.meta.env.BASE_URL}${fileName}`;
+
 const sharedProfile = {
   name: "Christine",
   nameZh: "陈怡轩",
@@ -17,7 +19,7 @@ const sharedProfile = {
   links: [
     { label: "LinkedIn", href: "http://www.linkedin.com/in/cccyx07", icon: "linkedin" },
   ],
-  avatar: "/avatar.png",
+  avatar: assetPath("avatar.png"),
 };
 
 export const languageLabels = {
@@ -192,7 +194,7 @@ export const resumeContent = {
         degree: "应用商业分析理学硕士（STEM）",
         period: "2026 届",
         location: "美国，波士顿",
-        image: "/bu-logo.svg",
+        image: assetPath("bu-logo.svg"),
         details: [
           "GPA: 3.6 / 4.0",
           "相关课程：Python 数据分析、数据库（SQL）、数据挖掘、运营管理",
@@ -203,7 +205,7 @@ export const resumeContent = {
         degree: "荣誉理学学士 · 管理经济学与数学双主修，统计学辅修",
         period: "2020.9 — 2024.6",
         location: "加拿大，多伦多",
-        image: "/utoronto-logo.svg",
+        image: assetPath("utoronto-logo.svg"),
         details: [
           "GPA: 3.3 / 4.0",
           "入学奖学金：University of Toronto Scarborough Entrance Scholarship",
@@ -393,7 +395,7 @@ export const resumeContent = {
         degree: "Master of Science in Applied Business Analytics (STEM)",
         period: "Class of 2026",
         location: "Boston, MA",
-        image: "/bu-logo.svg",
+        image: assetPath("bu-logo.svg"),
         details: [
           "GPA: 3.6 / 4.0",
           "Relevant coursework: Python Data Analytics, Database (SQL), Data Mining, Operations Management",
@@ -404,7 +406,7 @@ export const resumeContent = {
         degree: "Honours Bachelor of Science · Management Economics & Mathematics, Minor in Statistics",
         period: "Sep 2020 — Jun 2024",
         location: "Toronto, Canada",
-        image: "/utoronto-logo.svg",
+        image: assetPath("utoronto-logo.svg"),
         details: [
           "GPA: 3.3 / 4.0",
           "University of Toronto Scarborough Entrance Scholarship recipient",

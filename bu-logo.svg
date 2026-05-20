@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Boston University logo">
+  <rect width="160" height="160" rx="28" fill="#cc0000"/>
+  <rect x="14" y="14" width="132" height="132" rx="20" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <text x="80" y="76" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#ffffff">BU</text>
+  <text x="80" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#ffffff">BOSTON</text>
+  <text x="80" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#ffffff">UNIVERSITY</text>
+</svg>
